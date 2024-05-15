@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .qr-code img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <!-- Dynamic menu bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <span class="navbar-brand">Profile</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="tel:+1234567890">Call</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="whatsapp://send?phone=1234567890">WhatsApp</a>
+                </li>
+                <!-- Add other menu items -->
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main class="container mt-4">
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="WhatsApp Image 2022-11-16 at 10.41.40 PM.jpeg" class="card-img-top" alt="Profile Picture">
+                <div class="card-body">
+                    <h5 class="card-title">Afaq Ahmad</h5>
+                    <p class="card-text">Location: Pakistan </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Skills and Specialties</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item">HTML</li>
+                        <li class="list-group-item">CSS</li>
+                        <li class="list-group-item">JavaScript</li>
+                    
+                    </ul>
+                </div>
+            </div>
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h5 class="card-title">Work Experience</h5>
+                    <p class="card-text">Frontend Developer - ABC Company (2018-present)</p>
+                  
+                </div>
+            </div>
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h5 class="card-title">Education</h5>
+                    <p class="card-text">Bachelor's Degree in Computer Science - XYZ University (2014-2018)</p>
+                    
+                </div>
+            </div>
+            <div class="card mt-4 qr-code">
+                <div class="card-body">
+                    <h5 class="card-title">QR Code</h5>
+              
+                    <img style="width: 300px;" src="pngwing.com (3).png" alt="QR Code">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col">
+            <button class="btn btn-primary btn-block call-button">Call Now</button>
+        </div>
+    </div>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
